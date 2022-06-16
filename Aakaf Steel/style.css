@@ -1,0 +1,156 @@
+body {
+    margin: 15px;
+    padding: 15px;
+    border: 2px solid;
+    overflow: hidden;
+}
+
+
+/* 
+.head {
+    display: flex;
+    height: 18vh;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 10px;
+    background-color: aqua;
+    border-radius: 20px;
+}
+
+.mainsection {
+    position: relative;
+}
+
+.intro {
+    display: flex;
+    height: 52vh;
+    background-color: aqua;
+    align-items: center;
+    justify-content: center;
+    width: 30vw;
+    margin: 15px 20px;
+    border-radius: 20px;
+}
+
+.introTwo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 52vh;
+    background: aquamarine;
+    position: absolute;
+    right: 0;
+    margin: 0px 20px;
+    bottom: 0;
+    width: 62vw;
+    border-radius: 20px;
+}
+
+.foot {
+    display: flex;
+    height: 18vh;
+    align-items: center;
+    justify-content: center;
+    background-color: yellowgreen;
+    margin: 10px 10px;
+    border-radius: 20px;
+}
+
+@media (max-width: 320px),
+(max-width: 375px),
+(max-width: 425px),
+(max-width: 767px) {
+    body {
+        margin: 8px;
+        padding: 15px 0px;
+    }
+    .head {
+        height: 15vh;
+        margin: 0px 10px;
+    }
+    .intro {
+        height: 29vh;
+        width: auto;
+    }
+    .introTwo {
+        position: relative;
+        height: 29vh;
+        margin: 15px 20px;
+        width: auto;
+    }
+    .foot {
+        height: 15vh;
+        margin: 0px 10px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    body {
+        margin: 0spx;
+        padding: 15px 0px;
+    }
+    .head {
+        margin: 0px 10px;
+    }
+    .intro {
+        height: 52vh;
+        width: 33vw;
+    }
+    .introTwo {
+        height: 52vh;
+        min-width: 49vw;
+        max-width: 55vw;
+    }
+    .foot {
+        margin: 0px 10px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+    body {
+        margin: 0px;
+        padding: 15px 0px;
+    }
+    .head {
+        margin: 0px 10px;
+    }
+    .intro {
+        height: 52vh;
+        width: 34%;
+    }
+    .introTwo {
+        height: 52vh;
+        min-width: 49vw;
+        max-width: 60%;
+    }
+    .foot {
+        margin: 0px 10px;
+    }
+} */
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+.head {
+    background-color: aqua;
+    height: 100px;
+}
+
+.section {
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.section .links {
+    background-color: aquamarine;
+}
+
+.section .img {
+    background-color: rgb(213, 125, 16);
+}
+
+.section .content {
+    background-color: chocolate;
+}
